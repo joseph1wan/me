@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Portfolio",
+    "description": "This page. My portfolio.",
+    "type": "frontend",
+    "location": "https://www.github.com/joseph1wan/me",
+    "status": "active",
+    "languages": ["Typescript"]
+  },
+  {
+    "name": "dotfiles",
+    "description": "Collection of dotfiles",
+    "type": "frontend",
+    "location": "https://www.github.com/joseph1wan/.dotfiles",
+    "status": "active",
+    "languages": ["Vim", "Lua"]
+  }
+]

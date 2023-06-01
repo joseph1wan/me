@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "name": "Programming",
+      "items": [
+        {
+          "name": "Typescript",
+          "items": [
+            {
+              "name": "",
+              "description": "",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "name": "GraphQL",
+          "items": [
+            {
+              "name": "The Fullstack Tutorial for GraphQL",
+              "description": "Intro to GraphQL",
+              "link": "https://www.howtographql.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "items": [
+        {
+          "name": "NeoVim",
+          "items": [
+            {
+              "name": "Neovim journey: using LSP without any plugins!",
+              "description": "Understanding how LSP works natively in Neovim.",
+              "link": "https://dx13.co.uk/articles/2023/04/24/neovim-lsp-without-plugins/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
