@@ -1,28 +1,45 @@
+import { JSXElementConstructor } from "react"
 import { projectType, projectStatus } from "./type/ProjectTypes"
 
 interface ProjectProps {
   id: string,
   name: string,
   description: string,
+  role: string,
   projectType: projectType,
   projectStatus: projectStatus,
-  location: string,
+  url: string,
   languages: Array<string>,
+  frameworks: Array<string>,
 }
 
-export default function Project({ id, name, description, projectType, projectStatus, location }: ProjectProps) {
+function listFrameworks(frameworks: Array<string>) {
+  if(frameworks.length > 0) {
+    return <span><strong>Frameworks:</strong> { frameworks.join() }</span>
+  }
+}
+
+export default function Project({ id, name, description, role, projectType, projectStatus, url, languages, frameworks }: ProjectProps) {
   return (
     <div id={id} className="mt-5">
       <div className="rounded-xl border-2 border-gray-500 bg-gray-100">
         <div className="flex justify-between p-4 sm:p-6 lg:p-8">
-          <div>
+          <div className="w-full">
             <h3 className="font-medium sm:text-lg">
-              <a href={location} target="_blank" rel="noreferrer" className="text-black hover:underline">
+              <a href={url} target="_blank" rel="noreferrer" className="text-black hover:underline">
                 {name}
               </a>
             </h3>
+            <p className="mt-2 mb-1 mr-4 text-xs text-black flex">
+              <span className="w-1/2"><strong>Project type:</strong> {projectType}</span>
+              <span><strong>Role:</strong> {role}</span>
+            </p>
+            <p className="mr-4 text-xs text-black flex">
+              <span className="w-1/2"><strong>Languages:</strong> {languages.join(", ")}</span>
+              { listFrameworks(frameworks) }
+            </p>
 
-            <p className="line-clamp-2 text-sm text-gray-700">
+            <p className="mt-4 line-clamp-2 text-sm text-gray-700">
               {description}
             </p>
           </div>

@@ -15,10 +15,12 @@ export default function ProjectsTable() {
                 id={project.name}
                 name={project.name}
                 description={project.description}
+                role={project.role}
                 projectType={project.type as projectType}
                 projectStatus={project.status as projectStatus}
-                location={project.location}
+                url={project.url}
                 languages={project.languages}
+                frameworks={project.frameworks}
               />
             )}
         })

@@ -1,18 +1,32 @@
 [
   {
-    "name": "Portfolio",
-    "description": "This page. My portfolio.",
-    "type": "frontend",
-    "location": "https://www.github.com/joseph1wan/me",
+    "name": "Inventory Trail",
+    "description": "Proof of Concept web application to create an audit trail for inventory tracking",
+    "type": "Frontend",
+    "role": "Product Manager",
+    "url": "https://www.github.com/gp-mn/inventory-trail",
     "status": "active",
-    "languages": ["Typescript"]
+    "languages": ["Python"],
+    "frameworks": ["Django"]
+  },
+  {
+    "name": "Portfolio",
+    "description": "Project portfolio built with Typescript and Tailwind",
+    "type": "Frontend",
+    "role": "Developer",
+    "url": "https://www.github.com/joseph1wan/me",
+    "status": "active",
+    "languages": ["Typescript", "Javascript"],
+    "frameworks": ["React"]
   },
   {
     "name": "dotfiles",
     "description": "Collection of dotfiles",
-    "type": "frontend",
-    "location": "https://www.github.com/joseph1wan/.dotfiles",
+    "type": "Frontend",
+    "role": "Developer",
+    "url": "https://www.github.com/joseph1wan/.dotfiles",
     "status": "active",
-    "languages": ["Vim", "Lua"]
+    "languages": ["Vim", "Lua"],
+    "frameworks": []
   }
 ]

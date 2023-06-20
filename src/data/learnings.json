@@ -4,6 +4,16 @@
       "name": "Programming",
       "items": [
         {
+          "name": "Python/Django",
+          "items": [
+            {
+              "name": "",
+              "description": "",
+              "link": ""
+            }
+          ]
+        },
+        {
           "name": "Typescript",
           "items": [
             {
