@@ -1,5 +1,15 @@
 [
   {
+    "name": "Westgate Tab",
+    "description": "Proof of Concept web application to use Google Sheets as a database",
+    "type": "Full-Stack",
+    "role": "Developer",
+    "url": "https://www.github.com/joseph1wan/westgate-tab",
+    "status": "active",
+    "languages": ["Ruby"],
+    "frameworks": ["Ruby on Rails"]
+  },
+  {
     "name": "Inventory Trail",
     "description": "Proof of Concept web application to create an audit trail for inventory tracking",
     "type": "Frontend",
