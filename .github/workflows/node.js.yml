@@ -25,5 +25,5 @@ jobs:
         node-version: 20.3
         cache: 'npm'
     - run: npm ci --legacy-peer-deps
-    - run: git config --global user.email ${{ secrets.GH_EMAIL }}; git config --global user.name ${{ secrets.GH_USERNAME }}
+    - run: git config --global user.email ${{ secrets.GH_EMAIL }}; git config --global user.name ${{ secrets.GH_USERNAME }};git remote set-url origin git@github.com:joseph1wan/me.git
     - run: npm run deploy
