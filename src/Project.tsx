@@ -1,4 +1,3 @@
-import { JSXElementConstructor } from "react"
 import { projectType, projectStatus } from "./type/ProjectTypes"
 
 interface ProjectProps {
@@ -19,7 +18,7 @@ function listFrameworks(frameworks: Array<string>) {
   }
 }
 
-export default function Project({ id, name, description, role, projectType, projectStatus, url, languages, frameworks }: ProjectProps) {
+export default function Project({ name, description, role, projectType, projectStatus, url, languages, frameworks }: ProjectProps) {
   return (
     <div className="mb-10 mr-10 flex items-start gap-4">
       <a

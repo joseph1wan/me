@@ -12,7 +12,7 @@ interface Item {
 }
 
 export default function LearningItem({ name, items }: Props) {
-  const [isShown, setIsShown] = useState<any>(false);
+  const [isShown, setIsShown] = useState<boolean>(false);
 
   return (
     <div className="mt-5"

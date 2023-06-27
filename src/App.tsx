@@ -1,7 +1,7 @@
 import './App.css';
 import Profile from './Profile';
 import ProjectsTable from './ProjectsTable';
-import LearningTable from './LearningTable';
+{/* import Le arningTable from './LearningTable'; */}
 
 function App() {
   return (
