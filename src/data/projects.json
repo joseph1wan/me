@@ -1,6 +1,7 @@
 [
   {
     "name": "Westgate Tab",
+    "icon": "table",
     "description": "Proof of Concept web application to use Google Sheets as a database",
     "type": "Full-Stack",
     "role": "Developer",
@@ -11,6 +12,7 @@
   },
   {
     "name": "Inventory Trail",
+    "icon": "chart",
     "description": "Proof of Concept web application to create an audit trail for inventory tracking",
     "type": "Frontend",
     "role": "Product Manager",
@@ -21,6 +23,7 @@
   },
   {
     "name": "Portfolio",
+    "icon": "portfolio",
     "description": "Project portfolio built with Typescript and Tailwind",
     "type": "Frontend",
     "role": "Developer",
@@ -31,6 +34,7 @@
   },
   {
     "name": "dotfiles",
+    "icon": "wrench-screwdriver",
     "description": "Collection of dotfiles",
     "type": "Frontend",
     "role": "Developer",

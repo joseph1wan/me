@@ -13,6 +13,7 @@ export default function ProjectsTable() {
                     <Project 
                       key={project.name}
                       id={project.name}
+                      icon={project.icon}
                       name={project.name}
                       description={project.description}
                       role={project.role}
