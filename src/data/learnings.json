@@ -36,7 +36,7 @@
       ]
     },
     {
-      "name": "Tools",
+      "name": "Dev Tools",
       "items": [
         {
           "name": "NeoVim",
@@ -45,6 +45,21 @@
               "name": "Neovim journey: using LSP without any plugins!",
               "description": "Understanding how LSP works natively in Neovim.",
               "link": "https://dx13.co.uk/articles/2023/04/24/neovim-lsp-without-plugins/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "items": [
+        {
+          "name": "Fly.io",
+          "items": [
+            {
+              "name": "Rails on Fly.io",
+              "description": "Documentation to deploy a Rails app on Fly.io.",
+              "link": "https://fly.io/docs/rails/"
             }
           ]
         }

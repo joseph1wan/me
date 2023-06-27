@@ -6,7 +6,7 @@ export default function LearningTable() {
   const items: Props[] = data.categories[0].items
   return (
     <div className="">
-      <h1 className="text-4xl font-bold">Things I am Learning</h1>
+      <h1 className="text-2xl font-bold">Topics of interest</h1>
       {
         items.map(learningItem => {
           return (
