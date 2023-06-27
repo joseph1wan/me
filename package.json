@@ -21,8 +21,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "act -s SSH_PRIVATE_KEY -s GH_USERNAME -s GH_EMAIL"
   },
   "eslintConfig": {
     "extends": [
