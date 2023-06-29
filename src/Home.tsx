@@ -1,9 +1,8 @@
-import './App.css';
 import Profile from './Profile';
 import ProjectsTable from './ProjectsTable';
 {/* import Le arningTable from './LearningTable'; */}
 
-function App() {
+export default function Home() {
   return (
     <section>
       <div className="container mx-auto">
@@ -25,5 +24,3 @@ function App() {
     </section>
   );
 }
-
-export default App;
