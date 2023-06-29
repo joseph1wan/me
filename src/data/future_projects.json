@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Westgate Drinks Tab",
+    "description": "Application to keep track of Westgate fridge drink purchases",
+    "type": "frontend",
+    "location": "",
+    "status": "design",
+    "languages": ["Vim", "Lua"]
+  },
+  {
+    "name": "GPMN Inventory Tracker",
+    "description": "Application to check in and check out inventory",
+    "type": "frontend",
+    "location": "",
+    "status": "design",
+    "languages": ["Vim", "Lua"]
+  }
+]
