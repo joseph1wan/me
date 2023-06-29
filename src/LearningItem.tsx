@@ -2,13 +2,13 @@ import { useState } from 'react';
 
 export interface Props {
   name: string,
-    items: Item[]
+  items: Item[]
 }
 
 interface Item {
   name: string,
-    description: string,
-    link: string,
+  description: string,
+  link: string,
 }
 
 export default function LearningItem({ name, items }: Props) {

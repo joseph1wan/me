@@ -6,15 +6,15 @@ import ChartIcon from "./icons/ChartIcon"
 
 interface ProjectProps {
   id: string,
-    icon: string,
-    name: string,
-    description: string,
-    role: string,
-    projectType: projectType,
-    projectStatus: projectStatus,
-    url: string,
-    languages: Array<string>,
-    frameworks: Array<string>,
+  icon: string,
+  name: string,
+  description: string,
+  role: string,
+  projectType: projectType,
+  projectStatus: projectStatus,
+  url: string,
+  languages: Array<string>,
+  frameworks: Array<string>,
 }
 
 function listFrameworks(frameworks: Array<string>) {
