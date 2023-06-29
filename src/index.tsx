@@ -6,19 +6,19 @@ import './App.css'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
-{/* import Resume from "./Resume"; */}
+import Resume from "./Resume";
 import NoPage from "./NoPage";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<NoPage />} />
         <Route path="/me" >
           <Route index element={<Home />} />
           {/* <Route path="resume" element={<Resume />} /> */}
-          <Route path="*" element={<NoPage />} />
+          <Route path="resume" element={<Resume />} />
         </Route>
+        <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
   );
