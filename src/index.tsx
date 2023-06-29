@@ -12,14 +12,17 @@ import NoPage from "./NoPage";
 export default function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/me" >
-          <Route index element={<Home />} />
-          {/* <Route path="resume" element={<Resume />} /> */}
-          <Route path="resume" element={<Resume />} />
-        </Route>
-        <Route path="*" element={<NoPage />} />
-      </Routes>
+      <div className="container mx-auto">
+        <div className="max-w-screen px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+          <Routes>
+            <Route path="/me" >
+              <Route index element={<Home />} />
+              <Route path="resume" element={<Resume />} />
+            </Route>
+            <Route path="*" element={<NoPage />} />
+          </Routes>
+        </div>
+      </div>
     </BrowserRouter>
   );
 }
