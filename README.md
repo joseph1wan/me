@@ -25,8 +25,7 @@ Actions for this repo require these secrets set in env variables:
 
 ### `npm run deploy`
 
-Builds the app for production to the `build` folder and then deploys the app
-using the `gh-pages` npm package.
+Builds the app for production to the `build` folder and then deploys the app using the `gh-pages` npm package.
 
 # References
 [Action for setting the `ssh-agent` with a private key](https://github.com/webfactory/ssh-agent)

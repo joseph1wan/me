@@ -23,7 +23,7 @@ export default function Profile() {
           </div>
         </div>
 
-        <p className="w-1/2 mr-4 text-gray-300">
+        <p className="w-1/2 mr-4">
           Innovative Software Developer with 6+ years of experience building robust software, web applications, services, and systems with a focus on streamlining inefficient processes and enabling fast, smart, and efficient work.
         </p>
 
