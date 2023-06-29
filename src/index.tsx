@@ -13,7 +13,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" >
+        <Route path="/" element={<NoPage />} />
+        <Route path="/me" >
           <Route index element={<Home />} />
           {/* <Route path="resume" element={<Resume />} /> */}
           <Route path="*" element={<NoPage />} />
