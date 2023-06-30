@@ -14,7 +14,7 @@ export default function Home() {
       </section>
       <section>
         <div className="grid grid-cols-6 gap-16">
-          <div className="row-span-full col-span-4 mb-4">
+          <div className="row-span-full col-span-full mb-4 md:col-span-4">
             <h1 className="my-8 text-2xl font-bold">Projects</h1>
             <ProjectsTable />
           </div>

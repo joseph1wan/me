@@ -12,7 +12,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="container mx-auto">
-        <div className="max-w-screen px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+        <div className="max-w-screen px-8 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <Routes>
             <Route path="/me" >
               <Route index element={<Home />} />

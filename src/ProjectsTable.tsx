@@ -5,7 +5,7 @@ import { projectType, projectStatus } from "./type/ProjectTypes"
 export default function ProjectsTable() {
   return (
 
-          <div className="grid grid-cols-2 gap-8" >
+          <div className="grid grid-cols-1 md:gap-8 md:grid-cols-2 lg:grid-cols-3" >
             {
               data.map(project => {
                 if (project.status === "active") {

@@ -40,7 +40,7 @@ export default function Project({ icon, name, description, role, projectType, pr
   return (
     <div className="mb-10 mr-10 flex items-start gap-4">
       <a
-        className="w-full block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+        className="w-full block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-100/10 hover:shadow-pink-100/10"
         target="_blank"
         rel="noreferrer"
         href={url}

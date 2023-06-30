@@ -7,7 +7,7 @@ export default function Profile() {
   return (
     <div className="">
       <div className="flex items-baseline">
-        <h2 className="text-3xl mr-4 font-bold sm:text-4xl">Joseph Wan | Software Developer</h2>
+        <h2 className="text-3xl mr-4 font-bold sm:text-3xl">Joseph Wan | Software Developer</h2>
         <a className="mr-4" href="https://www.linkedin.com/in/josephwan" target="_blank" rel="noreferrer">
           <LinkedInIcon />
         </a>
@@ -16,8 +16,8 @@ export default function Profile() {
         </a>
       </div>
 
-      <div className="flex w-2/3 my-6 items-center">
-        <div className="w-1/6 mr-8 items-center">
+      <div className="flex w-full md:w-2/3 my-6 items-center">
+        <div className="w-1/4 md:w-1/6 mr-8 items-center">
           <div className="text-center">
             <img className="border-2 border-white rounded-full" src={ profilePic } alt="profile pic"/>
           </div>
