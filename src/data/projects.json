@@ -3,10 +3,8 @@
     "name": "Westgate Tab",
     "icon": "table",
     "description": "Proof of Concept web application to use Google Sheets as a database",
-    "type": "Full-Stack",
     "role": "Developer",
     "url": "https://www.github.com/joseph1wan/westgate-tab",
-    "status": "active",
     "languages": ["Ruby"],
     "frameworks": ["Ruby on Rails"]
   },
@@ -14,10 +12,8 @@
     "name": "Inventory Trail",
     "icon": "chart",
     "description": "Proof of Concept web application to create an audit trail for inventory tracking",
-    "type": "Frontend",
     "role": "Product Manager",
     "url": "https://www.github.com/gp-mn/inventory-trail",
-    "status": "active",
     "languages": ["Python"],
     "frameworks": ["Django"]
   },
@@ -25,10 +21,8 @@
     "name": "Portfolio",
     "icon": "portfolio",
     "description": "Project portfolio built with Typescript and Tailwind",
-    "type": "Frontend",
     "role": "Developer",
     "url": "https://www.github.com/joseph1wan/me",
-    "status": "active",
     "languages": ["Typescript", "Javascript"],
     "frameworks": ["React"]
   },
@@ -36,10 +30,8 @@
     "name": "dotfiles",
     "icon": "wrench-screwdriver",
     "description": "Collection of dotfiles",
-    "type": "Frontend",
     "role": "Developer",
     "url": "https://www.github.com/joseph1wan/.dotfiles",
-    "status": "active",
     "languages": ["Vim", "Lua"],
     "frameworks": []
   }
